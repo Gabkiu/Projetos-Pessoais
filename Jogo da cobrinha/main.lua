@@ -1,29 +1,6 @@
 require("lib.load")
 require("player")
 
-
-
---[[
-local t1 = Frame:Novo()
-
-local t2 = Frame:Novo()
-t2.Cor = Cor:Novo(80,80,80)
-
-local Tela = Tela:Novo()
-
-
-t1.Colide = true
-t2.Colide = true
-
-
-Tela:Adicionar(t1)
-Tela:Adicionar(t2)
-
-
-
-t2:Mover()
-]]
-
 local Player = Player:Novo()
 local Keys = {
 	"a","s","w","d"
