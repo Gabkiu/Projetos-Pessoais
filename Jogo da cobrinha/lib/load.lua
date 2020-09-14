@@ -1,0 +1,13 @@
+require("lib.funcoes")
+require("lib.classes.cor")
+require("lib.classes.vetor")
+require("lib.classes.conexao")
+require("lib.classes.evento")
+require("lib.classes.thread")
+
+require("lib.classes.Objeto")
+require("lib.classes.Tela")
+require("lib.classes.frame")
+require("lib.classes.tween")
+require("lib.game")
+require("lib.ouvintes.mouse")
